@@ -4,9 +4,9 @@ body {
 }
 
 h1{
-  font-size: 3.5rem;
-  line-height: 1.5rem;
-
+  font-size: 3.0rem;
+  font-family: "Arial Black";
+  line-height: 3.0rem;
 }
 h2 {
   color:#ef8172;
@@ -40,6 +40,10 @@ hr {
   width:5%;
 }
 
+p{
+  color: black;
+  font-weight: 300;
+}
 
 /* NAVIVATION BAR */
 .navbar {
@@ -76,39 +80,47 @@ hr {
 
 /* SECTIONS */
 .cream1-section {
- /* background-color: #FAEEE0;  */
-  background-color: #FDF6F0;
+  /* background-color: #FDF6F0; */
+  /* background-color: #FDD2BF; */
+  /* background-color: #ff4c68; */
+  background-color: #ef8172;
   padding-left: 60px;
   padding-right: 60px;
 }
 
 .cream2-section {
-  /* background-color: #FCD8D4; */
-  background-color: #FFF;
+  background-color: #FFF1CE;
+  /* background-color: #FFF; */
   padding:3% 15%;
 }
 
 .cream3-section {
-  background-color: #FCD8D4;
+  /* background-color: #E2D784; */
+  background-color: #FFFF;
   padding:3% 15%;
 }
 
 .cream4-section {
-  background-color: #C1A3A3;
+  /* background-color: #FFBF86; */
+  background-color:#FFFF;
   padding:3% 15%;
 }
 
 .cream5-section {
-  background-color: #886F6F;
+  /* background-color: #FFF; */
+  /* background-color: #FFF1CE; */
+  /* background-color:#FFF9B2; */
+  background-color:#F9D371;
+  /* background-color: #FFE6AB; */
   padding: 1% 15%;
 }
 .cream6-section {
-  background-color: #FFF;
-  padding: 1% 15%;
+  background-color: #FFF1CE;
+  padding: 3% 5%;
 }
 
 .cream7-section {
-  background-color: #694E4E;
+  background-color: #ef8172;
   padding: 2% 15%;
 }
 
@@ -121,7 +133,7 @@ hr {
   line-height: 1.5;
 }
 
-.glamphoto {
+/* .glamphoto {
   padding-top: 3%;
   padding-bottom: 3%;
   /* border-radius: 100px; */
@@ -130,11 +142,11 @@ hr {
   height:auto;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 /* FEATURES-2 ICONS */
 .feature-box {
-  padding: 3%;
+ padding: 3%;
  color:#FF8356;
 }
 
@@ -147,25 +159,23 @@ hr {
   color: #ff4c68;
 }
 
-/* CARD ACCOMMODATION TYPE */
-#accommodation {
-  padding-top: 100px;
-  padding-bottom: 100px;
+/* FEATURES 2 / DESCRIPTION */
+.features2-row {
+margin:30px auto 30px auto;
+padding: 30px;
+text-align: left;
+line-height: 2;
+}
+.features2a-img {
+/* width:25%; */
+float: left;
+margin-right: 30px;
+margin-bottom: 10px;
 }
 
-.row {
-  margin-bottom: 10%;
-}
-.card-link {
-    text-align:center;
-}
-
-.card {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 50px;
-    padding: 30px 50px 30px;
-    text-align:center;
+.features2b-img{
+  float: right;
+  margin-left: 30px;
 }
 
 /* RESIDENCES PHOTO CAROUSEL */
@@ -188,28 +198,60 @@ hr {
 /* LOCATION */
 .googlemap {
     width: 100%;
+    margin: 30px auto 30px;
 }
 
 .map-wrapper {
-    max-width: 768px;
+    /* max-width: 768px; */
+    max-width: 1200px;
     border: 2px solid ##ef8172;
 }
 
 /* /CONTACT US */
+
+/* Style inputs, select elements and textareas */
+input[type=text, type=email], textarea {
+  width: 75%;
+  padding: 6px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+label {
+  padding: 10px 10px 10px 10px;
+  display: inline-block;
+  /* text-align: left; */
+}
+
+/* input[type=submit, type=reset] {
+   padding: 10px 15px;
+} */
 .contact-logo {
-  background-color: ##FCD8D4;
   padding-top: 10px;
   padding-bottom: 10px;
+  width:40%;
+  position:relative;
+  /* float: left; */
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.contact-us-box {
+  padding: 30px 30px 30px 30px;
 }
 
 /* FOOTER */
 .social-icon {
   color: #ef8172;
-  margin: 30px 30px;
+  margin: 50px 30px 50px;
   font-size: 1.5rem;
 }
 
 .copyright-text {
-  font-size: 1.0rem;
+  font-size: 0.80rem;
   color: #FFF;
+  /* color: #ef8172; */
+
 }
